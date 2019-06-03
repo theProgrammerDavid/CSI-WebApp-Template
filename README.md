@@ -42,7 +42,7 @@ The CSI-WebApp-Template CLI can be installed for both Windows and Unix-based Ope
 
 Use the following Powershell Command (PowerShell >= 3.0)
 ```bash
-Invoke-WebRequest https://raw.githubusercontent.com/theProgrammerDavid/CSI-WebApp-Template/master/Windows/tools/install.bat -OutFile csi-cli.bat
+Invoke-WebRequest https://raw.githubusercontent.com/theProgrammerDavid/CSI-WebApp-Template/master/Windows/tools/install.bat -OutFile install.ps1
 ```
 
 ### For Unix-Based OS
