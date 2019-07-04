@@ -24,6 +24,8 @@ EXIT /B 0
 
 :fn_check_updates
 echo checking for updates..
+chdir %temp%\.CSI-WebApp-Template
+git pull
 EXIT /B 0
 
 :fn_download_src
